@@ -102,6 +102,17 @@ input[type=radio]{
     margin: 14px 0;
 }
 
+input[type=submit]{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: linear-gradient(to right, #6441a5, #2a0845);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 input[type=submit]:active{
     border: 3px solid #ccc;
 }
